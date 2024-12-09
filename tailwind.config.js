@@ -7,9 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      fontFamily: {
+        sans: ["Inter", "sans-serif"], // Inter as the default sans-serif font
+        roman: ['"Times New Roman"', "Times", "serif"], // Add Times New Roman for specific cases
       },
     },
   },
